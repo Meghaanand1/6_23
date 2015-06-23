@@ -1,1 +1,1 @@
-Its good to always have  a README
+It's good to always have  a README
