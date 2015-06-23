@@ -7,4 +7,11 @@ def f_to_k(temp):
     converted = ((temp - 32 ) * (5.0/9)) + 273.15 
     return converted
 
-print(f_to_k(40))
+
+def k_to_c(temp):
+    return (temp - 273.15)
+
+def f_to_c(temp):
+    return k_to_c( f_to_k(temp ))
+
+print(f_to_c(32))
